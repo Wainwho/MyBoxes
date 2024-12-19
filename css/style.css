@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Geologica", sans-serif;
+}
+
+/*_______________________________________HEADER_______________________________________*/
+
+header {
+    width: 100%;
+    background-color: #f1e5ff;
+    font-size: 18px;
+}
+header ul li a {
+    padding: 20px;
+    color: #95689b;
+    transition: all 200ms ease;
+}
+header ul li a:hover:not(.User a) {
+    color: #8b6391;
+    border-bottom: 5px solid #8b6391;
+    border-radius: 3px;
+}
+header img:not(.logo) {
+    width: 60px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 999px;
+    transition: all 200ms ease;
+}
+header img:not(.logo):hover {
+    width: 60px;
+    padding: 5px;
+    border-radius: 999px;
+}
+
+/*_______________________________________FIRST_SCREEN_______________________________________*/
+
+main img {
+    width: 100%;
+    height: 700px;
+}
+.txt h1 {
+    color: #dbd3ff;
+    margin-top: -450px;
+    width: 700px;
+    margin-left: 100px;
+}
+.txt h2 {
+    color: #8475a0;
+    width: 500px;
+    margin-left: 100px;
+}
+
+/*___________________________________________Christmas_Catalog__________________________________*/
+
+.Christmas_Catalog {
+    margin-bottom: 50px;
+}
+
+.Christmas_Catalog h1 a {
+    color: #81a2e3;
+}
+
+/*___________________________________________CARDS______________________________________________*/
+
+.card {
+    margin-top: 50px;
+    width: 250px;
+    background-color: #f5ecff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.card h2 {
+    font-size: 24px;
+}
+.card button {
+    background-color: #8b6391;
+    border-radius: 10px;
+    transition: all 200ms ease;
+}
+.card button:hover {
+    background-color: #a467ad;
+    scale: 1.02;
+}
+
+.card button img {
+    width: 40px;
+    height: 40px;
+}
+.card button h3 {
+    font-size: 20px;
+    color: #FFF;
+}
+
+/*____________________________________________FORMS_____________________________________________________*/
+
+.Forms {
+    background-image: url(../Pictures/background.jpg);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+}
+
+.comunication {
+    background-color: #f1e5ff7e;
+    width: 30%;
+    align-items: center;
+    border-radius: 10px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.comunication input {
+    width: 350px;
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.comunication button {
+    padding: 10px;
+    width: 300px;
+    font-size: 24px;
+    background-color: #8b6391;
+    color: #FFF;
+    border-radius: 10px;
+    transition: all 200ms ease;
+}
+.comunication button:hover {
+    padding: 10px;
+    width: 300px;
+    font-size: 24px;
+    background-color: #95689b;
+    color: #FFF;
+    border-radius: 10px;
+    scale: 1.02;
+}
+
+.PolicityText {
+    width: 320px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.PolicityText a {
+    color: #81a2e3;
+}
+
+/*___________________________________________FOOTER_____________________________________________________*/
+
+footer {
+    color: #FFF;
+    height: 500px;
+    background-color: #4e3352;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+footer h1 {
+    font-size: 24px;
+}
