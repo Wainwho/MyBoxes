@@ -3,8 +3,9 @@
 body {
     font-family: "Geologica", sans-serif;
 }
+/*================================================For=All=Pages================================================*/
 
-/*_______________________________________HEADER_______________________________________*/
+/*____________________________________________________HEADER_________________________________________________*/
 
 header {
     width: 100%;
@@ -34,7 +35,29 @@ header img:not(.logo):hover {
     border-radius: 999px;
 }
 
-/*_______________________________________FIRST_SCREEN_______________________________________*/
+/*___________________________________________FOOTER_____________________________________________________*/
+
+footer {
+    color: #FFF;
+    height: 500px;
+    background-color: #4e3352;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+footer h1 {
+    font-size: 24px;
+}
+
+
+/*==================================================Main=Page=========================================================*/
+
+/*_________________________________________________FIRST_SCREEN______________________________________________________*/
 
 main img {
     width: 100%;
@@ -160,21 +183,54 @@ main img {
     color: #81a2e3;
 }
 
-/*___________________________________________FOOTER_____________________________________________________*/
+/*=========================================Catalog========================================*/
 
-footer {
+.catalog_main {
+    height: auto;
+    padding: 70px;
+}
+
+.CatalogCard {
+    width: 400px;
+    height: 200px;
+    background-color: #4D3675;
+    border-radius: 20px;
+    transition: all 200ms ease;
+}
+.CatalogCard img {
+    width: 400px;
+    height: 200px;
+    opacity: 40%;
+    transition: all 600ms ease;
+    border-radius: 20px;
+}
+
+.CatalogCard h1 {
+    font-weight: bold;
     color: #FFF;
-    height: 500px;
-    background-color: #4e3352;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-footer img {
-    width: 300px;
-    height: 300px;
-    border-radius: 30px;
-}
-footer h1 {
+    margin-top: -150px;
+    margin-left: 25px;
     font-size: 24px;
+    transition: all 600ms ease;
+}
+.CatalogCard h2 {
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #dbd3ff;
+    transition: all 600ms ease;
+}
+
+.CatalogCard:hover {
+    scale: 1.05;
+}
+.CatalogCard:hover h2 {
+    color: #FFF;
+}
+.CatalogCard:hover h1 {
+    color: #FFF;
+}
+.CatalogCard:hover img {
+    color: #FFF;
+    opacity: 10%;
 }
