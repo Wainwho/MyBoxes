@@ -16,13 +16,13 @@
             <ul class="flex gap-24 font-semibold">
                 <li><a href="./index.html">Главная</a></li>
                 <li><a href="./Pages/Catalog.html">Каталог</a></li>
-                <li><a href="">Контакты</a></li>
+                <li><a href="./Pages/Contacts.html">Контакты</a></li>
                 <li><a href="">О нас</a></li>
             </ul>
         </nav>
 
         <ul class="User flex gap-6">
-            <li><a href=""><img src="./Pictures/cart-svgrepo-com.svg" alt=""></a></li>
+            <li><a href="./Pages/cart.html"><img src="./Pictures/cart-svgrepo-com.svg" alt=""></a></li>
             <li><a href=""><img src="./Pictures/profile-svgrepo-com.svg" alt=""></a></li>
         </ul>
     </header>
@@ -36,46 +36,64 @@
         </div>
     </main>
 
-    <main class="mt-10 ml-14">
+    <main class="mt-10">
         <div class="Christmas_Catalog">
             <h1 class="font-bold text-2xl">Новогодние подарочные наборы ☃️ <a href="">БОЛЬШЕ ПОДАРКОВ!!!</a></h1>
 
-            <div class="catalog flex flex-wrap gap-12">
-                <div class="card flex flex-col gap-4">
-                    <img src="" alt="">
-                    <div class="cardtxt flex flex-col items-center">
-                        <h2>Название</h2>
-                        <h4>??? $</h4>
-                    </div>
-                    <button class="flex justify-around items-center px-3"><h3>В корзину</h3><img src="./Pictures/cart-svgrepo-com (white).svg" alt=""></button>
-                </div>
+            <div class="catalog">
 
-                <div class="card flex flex-col gap-4">
-                    <img src="" alt="">
-                    <div class="cardtxt flex flex-col items-center">
-                        <h2>Название</h2>
-                        <h4>??? $</h4>
-                    </div>
-                    <button class="flex justify-around items-center px-3"><h3>В корзину</h3><img src="./Pictures/cart-svgrepo-com (white).svg" alt=""></button>
-                </div>
+                <input checked type="radio" neme="respond" id="desktop">
+                    <article id="Slider mx-auto">
+                        <input type="radio" name="Slider" id="switch1">
+                        <input type="radio" name="Slider" id="switch2">
+                        <input type="radio" name="Slider" id="switch3">
+                        <input type="radio" name="Slider" id="switch4">
+                        <input type="radio" name="Slider" id="switch5">
 
-                <div class="card flex flex-col gap-4">
-                    <img src="" alt="">
-                    <div class="cardtxt flex flex-col items-center">
-                        <h2>Название</h2>
-                        <h4>??? $</h4>
-                    </div>
-                    <button class="flex justify-around items-center px-3"><h3>В корзину</h3><img src="./Pictures/cart-svgrepo-com (white).svg" alt=""></button>
-                </div>
-
-                <div class="card flex flex-col gap-4">
-                    <img src="" alt="">
-                    <div class="cardtxt flex flex-col items-center">
-                        <h2>Название</h2>
-                        <h4>??? $</h4>
-                    </div>
-                    <button class="flex justify-around items-center px-3"><h3>В корзину</h3><img src="./Pictures/cart-svgrepo-com (white).svg" alt=""></button>
-                </div>
+                        <div class="slides">
+                            <div id="overflow">
+                                <div class="catalogcardsslide">
+                                    <div class="count1 flex gap-10">
+                                        <div class="card flex flex-col gap-4">
+                                            <img src="" alt="">
+                                            <div class="cardtxt flex flex-col items-center">
+                                                <h2>Название</h2>
+                                                <h4>??? $</h4>
+                                            </div>
+                                            <button class="flex justify-around items-center px-3"><h3>В корзину</h3><img src="./Pictures/cart-svgrepo-com (white).svg" alt=""></button>
+                                        </div>
+                        
+                                        <div class="card flex flex-col gap-4">
+                                            <img src="" alt="">
+                                            <div class="cardtxt flex flex-col items-center">
+                                                <h2>Название</h2>
+                                                <h4>??? $</h4>
+                                            </div>
+                                            <button class="flex justify-around items-center px-3"><h3>В корзину</h3><img src="./Pictures/cart-svgrepo-com (white).svg" alt=""></button>
+                                        </div>
+                        
+                                        <div class="card flex flex-col gap-4">
+                                            <img src="" alt="">
+                                            <div class="cardtxt flex flex-col items-center">
+                                                <h2>Название</h2>
+                                                <h4>??? $</h4>
+                                            </div>
+                                            <button class="flex justify-around items-center px-3"><h3>В корзину</h3><img src="./Pictures/cart-svgrepo-com (white).svg" alt=""></button>
+                                        </div>
+                        
+                                        <div class="card flex flex-col gap-4">
+                                            <img src="" alt="">
+                                            <div class="cardtxt flex flex-col items-center">
+                                                <h2>Название</h2>
+                                                <h4>??? $</h4>
+                                            </div>
+                                            <button class="flex justify-around items-center px-3"><h3>В корзину</h3><img src="./Pictures/cart-svgrepo-com (white).svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
             </div>
         </div>
     </main>
@@ -94,12 +112,14 @@
                 <h1 class="PolicityText">отправляя сообщение вы принимаете нашу <a href="#">политику конфиденциальности</a></h1>
             </div>
 
+            <script src="./Scripts/Form.js"></script>
+
             <button>Отправить</button>
         </div>
     </main>
 
     <footer>
-        <img src="./Pictures/QrToRepo.png" alt="">
+        <img src="./Pictures/qrcode_151229009_12d9eea30ad4baaa301835ebc81b3038.png" alt="">
 
         <div class="footertxt">
             <h1>Phone number</h1>

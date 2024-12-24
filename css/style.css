@@ -87,6 +87,11 @@ main img {
 
 /*___________________________________________CARDS______________________________________________*/
 
+.catalogcardsslide {
+    width: 100%;
+    float: left;
+}
+
 .card {
     margin-top: 50px;
     width: 250px;
@@ -95,7 +100,7 @@ main img {
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    align-items: center;
+    align-items: center
 }
 .card img {
     width: 200px;
@@ -122,6 +127,11 @@ main img {
 .card button h3 {
     font-size: 20px;
     color: #FFF;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
 }
 
 /*____________________________________________FORMS_____________________________________________________*/
