@@ -244,3 +244,22 @@ main img {
     color: #FFF;
     opacity: 10%;
 }
+
+
+
+/*((((((((((((((((((((((((((((((((((((mashallah allan slyder))))))))))))))))))))))))))))))))))))))))))))*/
+ 
+.slider-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.slider {
+    display: flex;
+    gap: 16px;
+    scroll-snap-align: start;
+}
+.card {
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+}
