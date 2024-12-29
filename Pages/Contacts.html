@@ -17,7 +17,7 @@
                 <li><a href="../index.html">Главная</a></li>
                 <li><a href="./Catalog.html">Каталог</a></li>
                 <li><a href="./Contacts.html">Контакты</a></li>
-                <li><a href="">О нас</a></li>
+                <li><a href="./aboutus.html">О нас</a></li>
             </ul>
         </nav>
 
@@ -27,18 +27,44 @@
         </ul>
     </header>
 
-    <main>
-        <h1 class="mx-auto">Создатели:</h1>
+    <header class="header">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <section class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>If you have any questions, feel free to reach out to us.</p>
+                <ul>
+                    <li><strong>Phone:</strong> +7 (700) 261 37 46</li>
+                    <li><strong>Email:</strong> kaka20144brawlstars@example.com</li>
+                    <li><strong>Address:</strong> Kazakhstan Taraz</li>
+                </ul>
+            </section>
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
     </main>
-
-    <footer>
-        <img src="../Pictures/QrToRepo.png" alt="">
-
-        <div class="footertxt">
-            <h1>Phone number</h1>
-            <h1>Email</h1>
-            <h1>Githubs</h1>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Contact Us. All rights reserved.</p>
         </div>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
